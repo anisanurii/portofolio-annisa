@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <!-- Menentukan encoding karakter, wajib untuk HTML5 -->
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Portofolio Caca">
+    <meta name="description" content="Portofolio Caca">
+    <meta http-equiv="refresh" content="1200">
+
+    <!-- Agar website responsive di berbagai perangkat -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Import ikon dari Font Awesome versi 6.5.2 (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Menghubungkan file CSS lokal (style.css) -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Judul yang muncul di tab browser -->
+    <title>Portfolio Caca</title>
+    <link rel="icon" href="/images/foto-annisa.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Bagian header: logo dan navigasi utama -->
+    <header>
+        <!-- Logo atau nama brand -->
+        <a href="#" class="logo">Annisa Nur Iksan</a>
+
+        <!-- Navigasi menu -->
+        <nav>
+            <a href="index.html" class="active"> Home</a> <!-- Menu aktif -->
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Bagian beranda (home) -->
+    <section class="home">
+        
+        <!-- Kolom kiri: gambar utama -->
+        <div class="home-img">
+            <img src="/images/foto-annisa.png" alt=""> <!-- Gambar utama, ganti dengan fotomu -->
+        </div>
+
+        <!-- Kolom kanan: teks perkenalan -->
+        <div class="home-content">
+            <h1>Hi, I'm <span>Annisa</span></h1> <!-- Judul utama -->
+            
+            <!-- Judul kedua yang akan diisi efek "typing" -->
+            <h3 class="typing-text">I'm a <span></span></h3>
+            
+            <!-- Deskripsi singkat tentang kamu -->
+            <p align="justify">Recent Informatics Engineering graduate with a focus on Cybersecurity and hands-on experience as a Backend Developer and IT Support Intern. Proficient in Python, Java, and security tools such as Nmap and Ettercap. Passionate about contributing to system security and IT operations through strong analytical and problem-solving skills. Able to work independently and collaboratively with effective communication abilities.</p>
+            
+            <!-- Ikon media sosial -->
+            <div class="social-icons-home">
+                <a href="https://www.linkedin.com/in/annisanuriksan/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/anisanurii" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <!-- <a href="https://x.com/naonsihmanehh" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a> -->
+                <a href="https://www.instagram.com/anisa.nurii/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <!-- Tombol untuk download CV atau ajakan kerja sama -->
+            <a href="/documents/CV_Annisa.pdf" class="btn">Hire me - CV</a>
+        </div>
+    </section>
+</body>
+</html>
