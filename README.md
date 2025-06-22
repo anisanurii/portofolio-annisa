@@ -32,7 +32,7 @@ Ini adalah website portfolio pribadi dari Annisa Nur Iksan, dibangun dengan HTML
 ## 🔗 Demo Live
 
 Kunjungi website portfolio:  
-[https://username.github.io/portfolio-annisa](https://username.github.io/portfolio-annisa)
+[https://anisanurii.github.io/portofolio-annisa/]([https://anisanurii.github.io/portofolio-annisa/](https://anisanurii.github.io/portofolio-annisa/))
 
 ## 🙋‍♀️ Tentang Saya
 
